@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="HttpURLConnection访问网络"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="#1111"/>
+
+    <TextView
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="OkHttp访问网络"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="#1111"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/huo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="获取第三方数据"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="#1111"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
